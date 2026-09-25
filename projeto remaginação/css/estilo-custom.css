@@ -1,0 +1,366 @@
+/* =========================================================
+   CSS CUSTOMIZADO - WEBTECH FUTURISTA VERDE
+   Elementos alterados:
+   2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12,
+   13, 14, 15, 16, 17, 18, 19 e 20.
+   Total: 19 elementos alterados.
+   Tema: Verde-turquesa, preto e cinza-escuro.
+   ========================================================= */
+
+
+/* 2. Corpo da Página */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background-color: #071110;
+  color: #E5F5F1;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* 3. Cabeçalho Principal */
+.cabecalho-principal {
+  background: linear-gradient(90deg, #071110, #10221E);
+  color: #00C9A7;
+  padding: 1.2rem 2rem;
+  margin: 0;
+  border-bottom: 2px solid #00C9A7;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* 4. Logotipo */
+.logo {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+  color: #00C9A7;
+  background-color: #071110;
+
+  padding: 0.5rem 0.8rem;
+  margin: 0;
+
+  border: 1px solid #00C9A7;
+  border-radius: 6px;
+
+  text-align: center;
+}
+
+
+/* 5. Lista de Navegação */
+.menu-navegacao ul {
+  list-style: none;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+
+  margin: 0;
+  padding: 0.7rem 1rem;
+
+  background-color: #0D1C1A;
+  border: 1px solid #1B4038;
+  border-radius: 8px;
+}
+
+
+/* 6. Links do Menu */
+.menu-navegacao a {
+  color: #A8DCD0;
+  text-decoration: none;
+
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  padding: 0.5rem 0.8rem;
+  margin: 0;
+
+  border-bottom: 2px solid transparent;
+  transition: 0.3s ease;
+}
+
+.menu-navegacao a:hover {
+  color: #00E6C3;
+  background-color: #102A23;
+  border-bottom: 2px solid #00E6C3;
+}
+
+
+/* 7. Área Principal de Conteúdo */
+.conteudo-principal {
+  max-width: 1100px;
+
+  margin: 2rem auto;
+  padding: 0 1.2rem;
+
+  display: block;
+}
+
+
+/* 8. Bloco de Artigo */
+.post-artigo {
+  background: linear-gradient(145deg, #10201C, #091310);
+  color: #E5F5F1;
+
+  padding: 2rem;
+  margin-bottom: 2rem;
+
+  border: 1px solid #1B4038;
+  border-radius: 10px;
+
+  box-shadow: 0 5px 20px rgba(0, 201, 167, 0.08);
+
+  text-align: left;
+}
+
+
+/* 9. Selo de Categoria */
+.categoria-badge {
+  display: inline-block;
+
+  background: linear-gradient(90deg, #008F78, #00C9A7);
+  color: #FFFFFF;
+
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 0.75rem;
+  font-weight: bold;
+
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+
+  padding: 0.35rem 0.9rem;
+  margin-bottom: 0.8rem;
+
+  border: 1px solid #00E6C3;
+  border-radius: 20px;
+}
+
+
+/* 10. Título do Artigo */
+.titulo-artigo {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1.9rem;
+  font-weight: bold;
+
+  color: #E5F5F1;
+  line-height: 1.3;
+
+  margin-bottom: 0.6rem;
+  padding: 0.3rem 0;
+
+  border-bottom: 1px solid #1B4038;
+
+  text-align: left;
+}
+
+
+/* 11. Subtítulo e Autoria */
+.subtitulo-autor {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 0.85rem;
+
+  color: #8BBFB0;
+  line-height: 1.5;
+
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.8rem;
+
+  border-bottom: 1px solid #246354;
+
+  text-align: left;
+}
+
+
+/* 12. Parágrafo Principal */
+.paragrafo-corpo {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1rem;
+
+  color: #C5DED6;
+  line-height: 1.7;
+
+  margin-bottom: 1.5rem;
+  padding: 0.3rem 0;
+
+  border-left: 2px solid #00C9A7;
+
+  text-align: justify;
+}
+
+
+/* 13. Citação em Destaque */
+.citacao-destaque {
+  background: linear-gradient(100deg, #102A23, #0B1B17);
+  color: #8FFFE2;
+
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1rem;
+  font-style: italic;
+  line-height: 1.6;
+
+  padding: 1.2rem 1.5rem;
+  margin-bottom: 1.5rem;
+
+  border-left: 5px solid #00C9A7;
+  border-top: 1px solid #1B4038;
+  border-right: 1px solid #1B4038;
+  border-bottom: 1px solid #1B4038;
+
+  border-radius: 6px;
+
+  text-align: left;
+}
+
+
+/* 14. Caixa de Alerta */
+.caixa-alerta {
+  background: linear-gradient(90deg, #10251F, #0B1915);
+  color: #C5F5E6;
+
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 0.9rem;
+  line-height: 1.6;
+
+  padding: 1rem 1.2rem;
+  margin: 0;
+
+  border: 1px solid #008F78;
+  border-radius: 6px;
+
+  text-align: left;
+}
+
+
+/* 15. Seção de Cards */
+.secao-cards {
+  margin-top: 2rem;
+  padding: 0.5rem 0;
+
+  background-color: transparent;
+  border: none;
+
+  text-align: left;
+}
+
+
+/* 16. Título da Seção */
+.titulo-secao {
+  font-family: "Courier New", monospace;
+  font-size: 1.4rem;
+  font-weight: bold;
+
+  color: #00C9A7;
+
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  line-height: 1.4;
+
+  margin-bottom: 1rem;
+  padding-bottom: 0.6rem;
+
+  border-bottom: 1px solid #246354;
+
+  text-align: left;
+}
+
+
+/* 17. Card Individual */
+.card-item {
+  background: linear-gradient(120deg, #10231E, #091511);
+  color: #D5EEE5;
+
+  border: 1px solid #246354;
+  border-radius: 8px;
+
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+
+  line-height: 1.6;
+
+  box-shadow: 0 4px 15px rgba(0, 201, 167, 0.06);
+
+  text-align: left;
+}
+
+
+/* 18. Botão de Ação */
+.botao-acao {
+  margin-top: 1rem;
+
+  background: linear-gradient(90deg, #008F78, #00C9A7);
+  color: #FFFFFF;
+
+  border: 1px solid #00E6C3;
+  border-radius: 6px;
+
+  padding: 0.7rem 1.4rem;
+
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 0.9rem;
+  font-weight: bold;
+
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.botao-acao:hover {
+  background: #00E6C3;
+  color: #071110;
+
+  border-color: #FFFFFF;
+
+  transform: translateY(-2px);
+}
+
+
+/* 19. Barra Lateral */
+.barra-lateral {
+  max-width: 1100px;
+
+  margin: 0 auto 2rem auto;
+  padding: 1.5rem;
+
+  background: linear-gradient(120deg, #10231E, #091511);
+  color: #C5DED6;
+
+  border: 1px solid #246354;
+  border-radius: 8px;
+
+  line-height: 1.7;
+
+  text-align: left;
+}
+
+
+/* 20. Rodapé */
+.rodape-portal {
+  background: linear-gradient(90deg, #071110, #10221E);
+  color: #8BBFB0;
+
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 0.85rem;
+
+  letter-spacing: 1px;
+  line-height: 1.5;
+
+  text-align: center;
+
+  padding: 1.5rem;
+  margin-top: 2rem;
+
+  border-top: 2px solid #00C9A7;
+}

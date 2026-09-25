@@ -1,0 +1,174 @@
+/* =========================================================
+   FOLHA DE ESTILO BASE (20 ELEMENTOS MAPEADOS)
+   ========================================================= */
+
+/* 1. Reset Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Corpo da Página */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f4f9;
+  color: #333333;
+  line-height: 1.6;
+}
+
+/* 3. Cabeçalho Principal */
+.cabecalho-principal {
+  background-color: #1e293b;
+  color: #ffffff;
+  padding: 1.2rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* 4. Logotipo */
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* 5. Lista de Navegação */
+.menu-navegacao ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+/* 6. Links do Menu */
+.menu-navegacao a {
+  color: #94a3b8;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+/* 7. Área Principal de Conteúdo */
+.conteudo-principal {
+  max-width: 850px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+/* 8. Bloco de Artigo */
+.post-artigo {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  margin-bottom: 2rem;
+}
+
+/* 9. Selo/Badge de Categoria */
+.categoria-badge {
+  display: inline-block;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+  margin-bottom: 0.8rem;
+}
+
+/* 10. Título do Artigo */
+.titulo-artigo {
+  font-size: 1.8rem;
+  color: #0f172a;
+  margin-bottom: 0.5rem;
+}
+
+/* 11. Subtítulo e Autoria */
+.subtitulo-autor {
+  font-size: 0.85rem;
+  color: #64748b;
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+}
+
+/* 12. Parágrafo Principal */
+.paragrafo-corpo {
+  font-size: 1.05rem;
+  color: #475569;
+  margin-bottom: 1.5rem;
+}
+
+/* 13. Citação em Destaque */
+.citacao-destaque {
+  border-left: 4px solid #2563eb;
+  background-color: #eff6ff;
+  padding: 1rem 1.2rem;
+  font-style: italic;
+  color: #1e3a8a;
+  margin-bottom: 1.5rem;
+}
+
+/* 14. Caixa de Alerta */
+.caixa-alerta {
+  background-color: #fef3c7;
+  border: 1px solid #f59e0b;
+  color: #92400e;
+  padding: 0.8rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+/* 15. Seção de Cards */
+.secao-cards {
+  margin-top: 2rem;
+}
+
+/* 16. Título da Seção */
+.titulo-secao {
+  font-size: 1.4rem;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+/* 17. Card Individual */
+.card-item {
+  background-color: #ffffff;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* 18. Botão de Ação */
+.botao-acao {
+  margin-top: 1rem;
+  background-color: #0f172a;
+  color: #ffffff;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+/* 19. Barra Lateral (Aside) */
+.barra-lateral {
+  max-width: 850px;
+  margin: 0 auto 2rem auto;
+  padding: 1rem;
+  background-color: #e2e8f0;
+  border-radius: 6px;
+}
+
+/* 20. Rodapé */
+.rodape-portal {
+  background-color: #0f172a;
+  color: #94a3b8;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.85rem;
+  margin-top: 2rem;
+}
